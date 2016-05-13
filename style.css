@@ -1,0 +1,183 @@
+/* css Zen Garden - CAS-FEE Marc Labud /*
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file is based on css Zen Garden default style v1.02 by Dave Shea */
+
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family:  Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	line-height: 15px;
+	color: #1A171B;
+	background: #CCDCE9;
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: left;
+	}
+h3 {
+    font-size: 11px;
+    font-weight: bold;
+	margin-bottom: 10px;
+	color: #1A171B;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #005291;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #F75D00;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #005291;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+/* specific divs */
+.page-wrapper { 
+	background: white;
+    width: 959px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 {
+    background: transparent url(logo.gif) no-repeat top left;
+    margin-left: 20px;
+    height: 69px;
+
+    /*Text Css Zengarden aus HTML ausblenden*/
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden ;
+	}
+header h2 {
+    /* Bild mit dem Claim */
+    background: transparent url(CSSGardenClaimblue.gif) no-repeat top left;
+    margin-left: 250px;
+    margin-top: 146px;
+    height: 30px;
+
+    /*Text The beauty of CSS-Design aus HTML ausblenden*/
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header {
+    background: transparent url(headerprodev.jpg) no-repeat top left;
+    height: 195px;
+    }
+
+.summary {
+	position: absolute;
+    top: 195px;
+    right: 155px;
+	margin: 20px 20px 20px 0px;
+	width: 144px;
+	}
+.summary p {
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+	text-align: left;
+
+    background-color:#CCDCE9 ;
+	}
+.preamble {
+    margin-top: 55px;
+    margin-left: 240px;
+    width: 380px;
+    padding: 0px 10px 0 10px;
+}
+
+ .supporting {
+    margin-left: 240px;
+    width:380px ;
+	padding: 0px 10px 0 10px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+/* Sidebar (css-style selection)*/
+.sidebar {
+	position: absolute; 
+	top: 35px;
+	left: 0;
+	}
+.sidebar .wrapper {
+	font: bold 11px arial, sans-serif;
+    color: #005291;
+	padding: 10px; 
+	margin-top: 150px;
+    margin-left: 10px;
+	width: 290px;
+	}
+.sidebar h3 {
+    font: bold 13px arial, sans-serif;
+    color: #005291;
+}
+.sidebar h3.select {
+    border-top: 1px solid #b3b4b5;
+    margin: 20px 0 0 0;
+    width:194px;
+    height: auto;
+    border-bottom: 1px solid #b3b4b5;
+}
+.sidebar h3.archives  {
+    border-top: 1px solid #b3b4b5;
+    margin: 20px 0 0 0;
+    width:194px;
+    height: auto;
+    border-bottom: 1px solid #b3b4b5;
+}
+.sidebar h3.resources  {
+    border-top: 1px solid #b3b4b5;
+    margin: 20px 0 0 0;
+    width:194px;
+    height: auto;
+    border-bottom: 1px solid #b3b4b5;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 12px;
+    border-bottom: 1px solid #b3b4b5;
+	display: block;
+    padding: 0px 0px 0px 0px;
+	list-style-type: none;
+    width: 194px;
+    border-bottom: 1px solid #b3b4b5;
+	}
+.sidebar li a:link {
+	color: #005291;
+	}
+.sidebar li a:visited {
+	color: #F75D00;
+	}
