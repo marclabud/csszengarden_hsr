@@ -3,7 +3,6 @@
 
 /* This file is based on css Zen Garden default style v1.02 by Dave Shea */
 
-
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
@@ -12,24 +11,23 @@ html {
 	margin: 0;
 	padding: 0;
 	}
-body { 
+body {
+	background: #CCDCE9;
+	color: #1A171B;
 	font-family:  Arial, Helvetica, sans-serif;
     font-size: 11px;
 	line-height: 15px;
-	color: #1A171B;
-	background: #CCDCE9;
 	margin: 0; 
 	padding: 0;
 	}
-p { 
-	margin-top: 0; 
+p {
 	text-align: left;
 	}
 h3 {
     font-size: 11px;
     font-weight: bold;
 	margin-bottom: 10px;
-	color: #1A171B;
+
 	}
 a:link, a:visited {
 	text-decoration: none; 
@@ -40,26 +38,27 @@ a:hover {
 	color: #F75D00;
 	}
 a:focus, a:active {
-	text-decoration: underline; 
 	color: #005291;
+	text-decoration: underline;
 	}
 abbr {
 	border-bottom: none;
 	}
 
 /* specific divs */
-.page-wrapper { 
+.page-wrapper {
 	background: white;
-    width: 959px;
+	/* positionierung des Page Wrappers in der Mitte der Seite mit auto*/
 	margin: 0 auto;
 	position: relative;
+    width: 959px;
 	}
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
 	}
-
+/* h1 wird zur positionierung des logo verwendet */
 header h1 {
     background: transparent url(logo.gif) no-repeat top left;
     margin-left: 20px;
@@ -71,7 +70,7 @@ header h1 {
 	overflow: hidden ;
 	}
 header h2 {
-    /* Bild mit dem Claim */
+    /* h2 wird zur Positionierungg des Bild mit dem Claim verwendet */
     background: transparent url(CSSGardenClaimblue.gif) no-repeat top left;
     margin-left: 250px;
     margin-top: 146px;
@@ -84,52 +83,45 @@ header h2 {
 	}
 header {
     background: transparent url(headerprodev.jpg) no-repeat top left;
+	margin-top: 0;
     height: 195px;
     }
 
 .summary {
 	position: absolute;
-    top: 195px;
+    top: 185px;
     right: 155px;
-	margin: 20px 20px 20px 0px;
+	margin: 20px 20px 20px 0;
 	width: 144px;
 	}
 .summary p {
-	font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    background-color:#CCDCE9 ;
     font-size: 10px;
+    font-weight: bold;
 	text-align: left;
 
-    background-color:#CCDCE9 ;
 	}
 .preamble {
     margin-top: 55px;
     margin-left: 240px;
+    padding: 0 10px 0 10px;
     width: 380px;
-    padding: 0px 10px 0 10px;
 }
 
  .supporting {
     margin-left: 240px;
-    width:380px ;
-	padding: 0px 10px 0 10px;
-	}
+	padding: 0 10px 0 10px;
+     width: 380px;
+    }
 
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
 /* Sidebar (css-style selection)*/
 .sidebar {
-	position: absolute; 
-	top: 35px;
-	left: 0;
+    left: 0;
+    top: 35px;
+	position: absolute;
 	}
 .sidebar .wrapper {
-	color: #005291;
-	font: 11px arial, sans-serif;
+	font-size : 11px;
 	margin-left: 10px;
 	margin-top: 150px;
 	padding: 10px;
@@ -158,3 +150,25 @@ footer a:link, footer a:visited {
 .sidebar li a:hover {
 	color: #F75D00;
 	}
+/* footer */
+footer {
+    border-top: 1px solid #b3b4b5;
+    height: 16px;
+    text-align: right;
+}
+
+footer a {
+    padding: 0 5px 0 5px;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility {
+    border-right: 1px solid #b3b4b5 ;
+}
+
+footer a:link, footer a:visited {
+    color: #000000;
+}
+
+footer a:hover {
+    color: #F75D00;
+}
