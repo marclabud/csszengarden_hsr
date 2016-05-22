@@ -61,7 +61,7 @@ abbr {
 /* h1 wird zur positionierung des logo verwendet */
 header h1 {
     background: transparent url(logo.gif) no-repeat top left;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
     height: 69px;
 
     /*Text Css Zengarden aus HTML ausblenden*/
