@@ -151,8 +151,18 @@ header {
 	color: #F75D00;
 	}
 /* footer */
+footer::before {
+	content: "";
+	background-color: #b3b4b5;
+	position: absolute;
+	margin: 0 0 0 20px;
+	left: -240px;
+	top:-1px;
+	height: 1px;
+	width: 929px;
+}
 footer {
-    border-top: 1px solid #b3b4b5;
+	position: relative;
     height: 16px;
     text-align: right;
 }
@@ -161,6 +171,7 @@ footer a {
     padding: 0 5px 0 5px;
 }
 
+/* Rechte Linie als Trennung zwischen zwei Elementen */
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility {
     border-right: 1px solid #b3b4b5 ;
 }
